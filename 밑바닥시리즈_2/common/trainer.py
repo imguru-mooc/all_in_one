@@ -10,8 +10,8 @@ from common.util import clip_grads
 
 class Trainer:
     def __init__(self, model, optimizer):
-        font_path = 'C:\Windows\Fonts\malgun.ttf'
-        fontprop = fm.FontProperties(fname=font_path, size=18)
+#         font_path = 'C:\Windows\Fonts\malgun.ttf'
+#         fontprop = fm.FontProperties(fname=font_path, size=18)
         self.model = model
         self.optimizer = optimizer
         self.loss_list = []
